@@ -49,7 +49,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
 # Program :
-
+```c
 n = int(input("Enter number of values: ")) 
 x = [] 
 p = [] 
@@ -68,7 +68,7 @@ for i in range(n):
 variance=ex2-mean**2 
 print("Mean= ",mean) 
 print("Variance= ",variance)
-
+```
 # Output : 
 <img width="727" height="250" alt="Screenshot 2026-11-17 133737" src="https://github.com/user-attachments/assets/3a1a51c5-71b8-4c6d-bffa-c9b0b2fd6b23" />
 
